@@ -1,0 +1,12 @@
+type Note {
+    id: ID!
+    text: String!
+    description: String!
+    subNote: [SubNote]!
+}
+
+type SubNote {
+    id: ID!
+    text: String!
+    description: String!
+}
